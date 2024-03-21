@@ -1,0 +1,27 @@
+body{
+        background-color: rgb(81, 159, 81);
+        height: 100vh;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .box #image1{
+        border-radius: 10px;
+        height: 25rem;
+        width: 20rem;
+        object-fit: cover;
+        object-position: center;
+        cursor: pointer;
+    }
+    .image2{
+        position: absolute;
+        height: 6rem;
+        width: 6rem;
+        opacity: 1;
+        scale: (0.8);
+        transition: 1s;
+    }
